@@ -1,19 +1,19 @@
 import React from 'react'
 import Skip from '../components/Skip'
-import Hearder from '../components/Hearder'
+import Header from '../components/Header'
 import Main from '../components/Main'
 import Intro from '../components/Intro'
 import Skill from '../components/Skill'
+import Footer from '../components/Footer'
 import Site from '../components/Site'
 import Port from '../components/Port'
 import Contact from '../components/Contact'
-import Footer from '../components/Footer'
 
 const HomeView = () => {
 	return (
 		<>
 			<Skip />
-			<Hearder />
+			<Header />
 			<Main>
 				<Intro />
 				<Skill />
